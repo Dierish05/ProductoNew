@@ -147,7 +147,7 @@ namespace Infraestructura.Productos
         }
         public int GetLastProductoId()
         {
-            return productos == null ? 0 : productos[productos.Length - 1].Id;
+            return productos == null || productos.Length == 0 ? 0 : productos[productos.Length - 1].Id;
         }
         #endregion
 

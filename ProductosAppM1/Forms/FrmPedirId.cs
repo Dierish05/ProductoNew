@@ -49,7 +49,10 @@ namespace ProductosAppM1.Forms
             }
             if(mode == "delete")
             {
-                
+                Producto prod = productoModel.GetProductoById(idf);
+                productoModel.Delete(prod);
+
+                this.Dispose();
             }
         }
 
