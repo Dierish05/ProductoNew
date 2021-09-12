@@ -58,7 +58,7 @@ namespace ProductosAppM1.Forms
 
         private void btnCancelar_Click(object sender, EventArgs e)
         {
-            Dispose();
+            Dispose();//sirve para cerrar xde
         }
     }
 }
